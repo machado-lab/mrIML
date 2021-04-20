@@ -4,9 +4,9 @@
 language: r
 
 install:
-  - Rscript -e 'devtools::install_deps("Package")'
+  - Rscript -e 'devtools::install_deps("mrIML")'
 script:
-  - Rscript -e 'devtools::check("Package")'
+  - Rscript -e 'devtools::check("mrIML")'
   
 os:
   - linux
